@@ -16,3 +16,7 @@
 * 🤔  on `main` or `Working-Branch` try `git pull origin main` and then run command `git checkout New-existing-branch`
 * ❌ `error: pathspec 'New-existing-branch' did not match any file(s) known to git`
 * 🎯 run `git pull` only not with origin
+##  'zsh: command not found: python'
+* 🤔  Try to deploy SAM aws solution 
+* ❌  'zsh: command not found: python'
+* 🎯 run `sudo apt-get install python3.8` and ` echo "alias python=/usr/bin/python3.8" >> ~/.zshrc`
