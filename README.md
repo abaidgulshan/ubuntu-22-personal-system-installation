@@ -20,3 +20,12 @@
 * 🤔  Try to deploy SAM aws solution 
 * ❌  'zsh: command not found: python'
 * 🎯 run `sudo apt-get install python3.8` and ` echo "alias python=/usr/bin/python3.8" >> ~/.zshrc`
+##  permission denied while trying to connect to the Docker daemon socket at unix
+* 🤔  Try to run `docker ps` 
+* ❌  `permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/containers/json": dial unix /var/run/docker.sock: connect: permission denied`
+* 🎯 Run following command
+    ```
+    ls -l /var/run/docker.sock
+    sudo chmod 666 /var/run/docker.sock
+    systemctl restart docker.service
+    ```
