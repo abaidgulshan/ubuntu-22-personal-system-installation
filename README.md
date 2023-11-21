@@ -29,3 +29,12 @@
     sudo chmod 666 /var/run/docker.sock
     systemctl restart docker.service
     ```
+##  zsh: command not found: helm
+* 🤔  Try to run `helm repo add` 
+* ❌  `zsh: command not found: helm`
+* 🎯 Run following command
+  ```
+  wget https://get.helm.sh/helm-v3.12.0-linux-amd64.tar.gz
+  tar -xvf  helm-v3.12.0-linux-amd64.tar.gz
+  mv linux-amd64/helm  /usr/local/bin
+  ```
