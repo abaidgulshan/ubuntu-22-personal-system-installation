@@ -1,4 +1,16 @@
 # ubuntu-22-personal-system-installation
+
+Table of Contents
+=================
+
+   * [Error zsh: command not found: jq](#error-zsh-command-not-found-jq)
+   * [Too many authentication failures](#too-many-authentication-failures)
+   * [Pull newly create Github branches on working directoy](#pull-newly-create-github-branches-on-working-directoy)
+   * ['zsh: command not found: python'](#zsh-command-not-found-python)
+   * [permission denied while trying to connect to the Docker daemon socket at unix](#permission-denied-while-trying-to-connect-to-the-docker-daemon-socket-at-unix)
+   * [zsh: command not found: helm](#zsh-command-not-found-helm)
+   * [Remove snap install package](#remove-snap-install-package)
+
 ## Error zsh: command not found: jq
 * 🤔 Try to add EKS node label with the command `export FIRST_NODE_NAME=$(kubectl get nodes -o json | jq -r '.items[0].metadata.name')`
 * ❌ `Error: zsh: command not found: jq`
@@ -38,3 +50,7 @@
   tar -xvf  helm-v3.12.0-linux-amd64.tar.gz
   mv linux-amd64/helm  /usr/local/bin
   ```
+
+##  Remove snap install package
+* 🤔  Try remove snap install package
+* 🎯 Run following command `sudo snap remove breaktimer`
