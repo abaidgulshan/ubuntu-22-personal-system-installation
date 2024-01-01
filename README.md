@@ -10,6 +10,8 @@ Table of Contents
    * [permission denied while trying to connect to the Docker daemon socket at unix](#permission-denied-while-trying-to-connect-to-the-docker-daemon-socket-at-unix)
    * [zsh: command not found: helm](#zsh-command-not-found-helm)
    * [Remove snap install package](#remove-snap-install-package)
+   * [Install Relax Brack Package](#install-relax-brack-package)
+   
 
 ## Error zsh: command not found: jq
 * 🤔 Try to add EKS node label with the command `export FIRST_NODE_NAME=$(kubectl get nodes -o json | jq -r '.items[0].metadata.name')`
@@ -54,3 +56,8 @@ Table of Contents
 ##  Remove snap install package
 * 🤔  Try remove snap install package
 * 🎯 Run following command `sudo snap remove breaktimer`
+
+
+##  Install Relax Brack Package 
+* 🤔  Try add breaks from work software
+* 🎯 Run following command `sudo snap install stretchly`
