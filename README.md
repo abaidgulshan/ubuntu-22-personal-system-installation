@@ -69,3 +69,13 @@ Table of Contents
    sudo apt install golang-go
    export PATH=$PATH:$(go env GOPATH)/bin
    ```
+##  Install tfk8s on Ubuntu 22.04 LTS 
+* 🤔  Try to install tfk8s package on Ubuntu 22.04 LTS 
+* 🎯 Run following command 
+   ```
+   sudo apt install golang-go
+   export PATH=$PATH:$(go env GOPATH)/bin
+   git clone git@github.com:jrhouston/tfk8s.git
+   cd tfk8s
+   make install
+   ```   
