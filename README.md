@@ -58,6 +58,14 @@ Table of Contents
 * 🎯 Run following command `sudo snap remove breaktimer`
 
 
-##  Install Relax Brack Package 
+##  Install Relax Break Package 
 * 🤔  Try add breaks from work software
 * 🎯 Run following command `sudo snap install stretchly`
+
+##  Install Go on Ubuntu 22.04 LTS 
+* 🤔  Try to install GO package on Ubuntu 22.04 LTS 
+* 🎯 Run following command 
+   ```
+   sudo apt install golang-go
+   export PATH=$PATH:$(go env GOPATH)/bin
+   ```
